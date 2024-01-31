@@ -1,0 +1,449 @@
+@font-face {
+  font-family: Nunito;
+  src: url(../fonts/Nunito-Regular.ttf);
+}
+
+@font-face {
+  font-family: Nunito Bold;
+  src: url(../fonts/Nunito-Bold.ttf);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  font-family: Nunito, sans-serif;
+}
+
+#envolturaCabezotePrincipal {
+  display: block;
+  clear: both;
+  float: left;
+  width: 100%;
+}
+
+#cabezotePrincipal {
+  width: 100%;
+}
+
+#logo {
+  min-height: 30px;
+  width: 100%;
+  height: 3vw;
+}
+
+#logo img {
+  margin-left: 5%;
+  margin-top: 0.75%;
+  height: 50%;
+}
+
+#bannerPrincipal {
+  width: 100%;
+  height: 17vw;
+  color: white;
+  font-family: Nunito, sans-serif;
+  padding: 5px 8% 5px 5%;
+  background: rgb(62, 213, 240);
+  background: linear-gradient(
+    135deg,
+    rgba(62, 213, 240, 1) 0%,
+    rgba(32, 73, 164, 1) 100%
+  );
+
+  display: block;
+  clear: both;
+  float: left;
+}
+
+#contenidoBannerPrincipal {
+  width: 50%;
+  display: block;
+  clear: none;
+  float: left;
+}
+
+#bannerPrincipal h1 {
+  margin-top: 2.5vw;
+  margin-bottom: 10px;
+  font-size: 4vw;
+}
+
+#bannerPrincipal p {
+  font-size: 1.7vw;
+}
+
+#bannerPrincipal img {
+  display: block;
+  clear: none;
+  float: right;
+  height: 100%;
+}
+
+#introduccion {
+  color: #3b8bad;
+  width: 50%;
+  padding: 2.5% 5% 2.5% 6%;
+
+  display: block;
+  clear: none;
+  float: left;
+  text-align: center;
+}
+
+#introduccion h3 {
+  font-size: 1.75vw;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+#introduccion p {
+  font-size: 1.2vw;
+  text-align: left;
+}
+
+#introduccion img {
+  margin-top: 5%;
+  height: 10vw;
+}
+
+#aplicacionesDebian {
+  color: #3b8bad;
+  width: 50%;
+  padding: 2.5% 5% 2.5% 6%;
+
+  display: block;
+  clear: none;
+  float: left;
+}
+
+#aplicacionesDebianTitulo img {
+  display: block;
+  clear: none;
+  float: left;
+  height: 3.5vw;
+}
+
+#aplicacionesDebianTitulo h3 {
+  display: block;
+  clear: none;
+  float: left;
+  margin-left: 15px;
+  padding-top: 0.5vw;
+  font-size: 1.75vw;
+  height: 3vw;
+}
+
+#aplicacionesDebian table {
+  margin-top: 4vw;
+}
+
+#aplicacionesDebian table tr td {
+  font-size: 1vw;
+  width: 8vw;
+  height: 12vw;
+  text-align: center;
+}
+
+#aplicacionesDebian table tr td img {
+  height: 7vw;
+}
+
+#envolturaTemasCapacitacion {
+  display: block;
+  clear: both;
+  float: left;
+  width: 100%;
+}
+
+#temasCapacitacion {
+  width: 100%;
+  height: 37vw;
+  padding: 3% 5% 3% 6%;
+}
+
+#temasCapacitacionTexto {
+  color: #3b8bad;
+  width: 50%;
+
+  display: block;
+  clear: none;
+  float: left;
+}
+
+#bienvenida {
+  margin-bottom: 2%;
+}
+
+#bienvenida h2 {
+  font-size: 2.5vw;
+  margin-bottom: 1%;
+}
+
+#bienvenida p {
+  font-size: 1.2vw;
+}
+
+#links ul {
+  padding-left: 2.5%;
+  line-height: 2.5vw;
+  font-size: 1.2vw;
+}
+
+#links ul li::marker {
+  color: black;
+  margin-left: 100px;
+}
+
+#links ul li a {
+  color: #3b8bad;
+  text-decoration: none;
+}
+
+#imgTemas {
+  width: 37%;
+
+  display: block;
+  clear: none;
+  float: right;
+
+  text-align: center;
+}
+
+#imgTemas img {
+  height: 27vw;
+  margin-top: 5%;
+}
+
+#envolturaTema01 {
+  display: block;
+  clear: both;
+  float: left;
+  width: 100%;
+}
+
+#temaIntro {
+  color: #3b8bad;
+  width: 100%;
+  height: 87vw;
+  padding: 3% 5% 3% 6%;
+  text-align: center;
+}
+
+#temaIntro h3 {
+  text-align: left;
+
+  font-size: 1.7vw;
+  margin-top: 12px;
+  line-height: 1.7vw;
+  margin-bottom: 12px;
+}
+
+#intro,
+#navegacion {
+  text-align: left;
+  margin-left: 1.5%;
+  margin-top: 2%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
+
+#intro h4,
+#navegacion h4 {
+  font-size: 1.55vw;
+}
+
+#intro p,
+#navegacion p {
+  font-size: 1.4vw;
+  text-align: justify;
+}
+
+#temaIntro iframe,
+#navegacion iframe {
+  margin-bottom: 1%;
+  border-radius: 2vw;
+  width: 50%;
+  height: 31%;
+}
+
+#envolturaPreguntasFrecuentes {
+  display: block;
+  clear: none;
+  float: left;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#preguntasFrecuentes {
+  color: #3b8bad;
+  padding: 5% 5% 5% 5%;
+}
+
+#preguntasFrecuentes h2 {
+  font-size: 2.5vw;
+  margin-bottom: 2.5%;
+}
+
+#preguntasFrecuentes h4 {
+  margin-top: 2.5%;
+  font-size: 1.55vw;
+}
+
+#preguntasFrecuentes p {
+  line-height: 2vw;
+  margin-top: 0.5%;
+  font-size: 1.4vw;
+}
+
+#preguntasFrecuentes a {
+  font-family: Nunito Bold;
+  background: rgb(62, 213, 240);
+  background: linear-gradient(
+    135deg,
+    rgba(62, 213, 240, 1) 0%,
+    rgba(32, 73, 164, 1) 100%
+  );
+  display: block;
+  clear: none;
+  float: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 12vw;
+  height: 4vw;
+  border-radius: 2vw;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  line-height: 4vw;
+  text-decoration: none;
+  color: white;
+  font-size: 1.75vw;
+}
+
+#envolturaFormularioContacto {
+  display: block;
+  clear: none;
+  float: left;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#formularioContacto {
+  color: white;
+  padding: 3% 5% 5% 5%;
+  background: rgb(62, 213, 240);
+  background: linear-gradient(
+    135deg,
+    rgba(62, 213, 240, 1) 0%,
+    rgba(32, 73, 164, 1) 100%
+  );
+}
+
+#formularioContacto h2 {
+  font-size: 3vw;
+  margin-bottom: 2.5%;
+}
+
+#formularioContacto form {
+  padding: 4% 8% 4% 8%;
+  font-size: 2vw;
+  height: 37.5vw;
+  font-family: Nunito Bold;
+  color: black;
+  background-color: white;
+  margin: 0vw 4vw;
+  border-radius: 8vw;
+}
+
+#formIzq {
+  display: block;
+  clear: none;
+  float: left;
+  width: 45%;
+  height: 85%;
+}
+
+#formDcho {
+  display: block;
+  clear: none;
+  float: right;
+  width: 45%;
+  height: 85%;
+}
+
+#formIzq label,
+#formIzq input,
+#formDcho label,
+#formDcho input,
+#formDcho select,
+#formDcho textarea {
+  width: 100%;
+  height: 2vw;
+  display: block;
+  margin-bottom: 1vw;
+}
+
+#formIzq input,
+#formDcho input,
+#formDcho select,
+#formDcho textarea {
+  font-family: Nunito;
+  font-style: italic;
+  height: 3vw;
+  padding-left: 1.2vw;
+  margin-bottom: 2vw;
+  color: #767676;
+  font-size: 1.5vw;
+  background-color: #e1e1e1;
+  border: none;
+  border-radius: 2vw;
+}
+
+
+#formDcho textarea {
+  height: 45%;
+  padding: 1vw;
+  resize: none;
+}
+
+#formularioContacto button {
+  border: none;
+  display: block;
+  clear: none;
+  float: center;
+  font-family: Nunito Bold;
+  background: rgb(62, 213, 240);
+  background: linear-gradient(
+    135deg,
+    rgba(62, 213, 240, 1) 0%,
+    rgba(32, 73, 164, 1) 100%
+  );
+  
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 12vw;
+  height: 4vw;
+  border-radius: 2vw;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  line-height: 4vw;
+  text-decoration: none;
+  color: white;
+  font-size: 1.75vw;
+}
