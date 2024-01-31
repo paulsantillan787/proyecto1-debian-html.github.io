@@ -231,9 +231,10 @@ a {
 
 #envolturaTema01 {
   display: block;
-  clear: both;
+  clear: none;
   float: left;
   width: 100%;
+  margin: 0 auto;
 }
 
 #temaIntro {
