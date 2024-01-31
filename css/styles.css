@@ -241,7 +241,7 @@ a {
   color: #3b8bad;
   width: 100%;
   height: 87vw;
-  padding: 3% 5% 3% 6%;
+  padding: 3% 6% 3% 6%;
   text-align: center;
 }
 
@@ -293,7 +293,7 @@ a {
 #preguntasFrecuentes {
   height: 37vw;
   color: #3b8bad;
-  padding: 5% 5% 5% 5%;
+  padding: 5% 5% 5% 6%;
 }
 
 #preguntasFrecuentes h2 {
@@ -347,7 +347,7 @@ a {
 
 #formularioContacto {
   color: white;
-  padding: 3% 5% 5% 5%;
+  padding: 3% 6% 5% 6%;
   background: rgb(62, 213, 240);
   background: linear-gradient(
     135deg,
